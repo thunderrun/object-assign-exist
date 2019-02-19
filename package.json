@@ -1,0 +1,22 @@
+{
+  "name": "object-assign-exist",
+  "version": "1.0.0",
+  "description": "Object.assign() only existing properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thunderrun/object-assign-exist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thunderrun/object-assign-exist/issues"
+  },
+  "homepage": "https://github.com/thunderrun/object-assign-exist#readme",
+  "dependencies": {
+    "lodash.pick": "^4.4.0"
+  },
+}
