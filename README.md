@@ -5,7 +5,7 @@ Object.assign() only existing properties
 ## Example
 
 ```javascript
-import assignExist from "./index.js";
+import assignExist from "object-assign-exist";
 const obj1 = {
   a: 1,
   b: 2
