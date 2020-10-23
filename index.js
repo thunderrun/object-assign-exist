@@ -1,7 +1,8 @@
-import pick from 'lodash.pick';
-
 const assignExist = (target, source) => {
-  return Object.assign(target, pick(source, Object.keys(target)));
+  Object.keys(target).forEach(key => {
+    target[key] = (key in source ? source : target)[key]
+  });
+  return target;
 };
 
 export default assignExist;

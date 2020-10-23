@@ -6,22 +6,33 @@ Object.assign() only existing properties
 
 ```javascript
 import assignExist from "object-assign-exist";
-const obj1 = {
+const target = {
   a: 1,
   b: 2
 };
 
-const obj2 = {
+const source = {
   b: 3,
   c: 4
 };
 
-obj1 = assignExist(obj1, obj2);
+const obj3 = assignExist(target, source);
 
 /*
-obj1 = {
+target = {
   a: 1,
   b: 3,
 }
+
+source = {
+  b: 3,
+  c: 4
+}
+
+obj3 = {
+  a: 1,
+  b: 3,
+}
+
 */
 ```
