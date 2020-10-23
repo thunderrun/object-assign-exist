@@ -1,6 +1,6 @@
 {
   "name": "object-assign-exist",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Object.assign() only existing properties",
   "main": "index.js",
   "scripts": {
