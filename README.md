@@ -2,10 +2,15 @@
 
 Object.assign() only existing properties
 
-## Example
+## Uasge
+
+```
+npm i object-assign-exist
+```
 
 ```javascript
 import assignExist from "object-assign-exist";
+
 const target = {
   a: 1,
   b: 2
@@ -33,6 +38,5 @@ obj3 = {
   a: 1,
   b: 3,
 }
-
 */
 ```
